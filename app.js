@@ -8,7 +8,7 @@ var path = require('path')
 const passport = require("passport")
 const FB = require('passport-facebook').Strategy
 
-const whitelist = ['http://localhost:3000', 'http://localhost:8080', 'https://shrouded-journey-38552.herokuapp.com']
+const whitelist = ['http://localhost:3000', 'http://localhost:9000', 'https://richpanel-fb.herokuapp.com/']
 const corsOptions = {
   origin: function (origin, callback) {
     console.log("** Origin of request " + origin)
